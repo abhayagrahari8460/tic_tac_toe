@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, rgba(185,206,145,1) 51%,
+     rgba(164,192,104,1) 95%, rgba(249,249,249,1) 100%);
+}
+
+body {
+    text-align: center;
+}
+
+.container {
+    height: 360px; /* Adjusted height */
+    width: 360px; /* Adjusted width */
+    border-radius: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Center the container */
+    margin-top: 20px; /* Added top margin for spacing */
+}
+
+.game {
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    background: radial-gradient(circle, rgba(185,206,145,1) 51%, rgba(164,192,104,1) 95%, rgba(249,249,249,1) 100%); /* Copied background from * selector */
+}
+
+.box {
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(232,233,242,1) 0%, rgba(218,116,37,1) 100%);
+    cursor: pointer; /* Added cursor style */
+    font-size: 2.5rem; /* Increased font size */
+    color: brown;
+    display: flex; /* Added to center text */
+    justify-content: center; /* Added to center text */
+    align-items: center; /* Added to center text */
+    margin: 10px; /* Added margin */
+}
+#reset {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 1rem;
+    border: none; /* Removed default button border */
+    cursor: pointer; /* Added cursor style */
+}
+#new-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #ffff;
+    border-radius: 1rem;
+    border: none;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 2rem;
+}
+.msg-container{
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
